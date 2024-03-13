@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=DebitCard
+comment0.text=\ DebitCard\ is\ the\ child\ class\ of\ Bankcard\ class\ which\ inherits\ properties\ \nof\ Bankcard\ class\ and\ also\ has\ it's\ own\ properties
+comment1.params=ClientName\ PIN_Number\ BankAccount\ IssuerBank\ BalanceAmount\ CardID
+comment1.target=DebitCard(java.lang.String,\ int,\ java.lang.String,\ java.lang.String,\ int,\ int)
+comment1.text=Constructor\ of\ DebitCard\ class\ which\ contains\ it's\ own\ attributes\ as\ well\ as\ inherites\ attributes\ of\ it's\ parent\ class
+comment2.params=
+comment2.target=int\ getPIN_Number()
+comment2.text=Getter\ Method\ for\ all\ attributes\ of\ DebitCard\ class
+comment3.params=
+comment3.target=int\ getWithdrawalAmount()
+comment4.params=
+comment4.target=java.lang.String\ getDateofWithdrawal()
+comment5.params=
+comment5.target=boolean\ gethasWithdrawn()
+comment6.params=WithdrawalAmount
+comment6.target=void\ setWithdrawalAmount(int)
+comment6.text=\ Using\ Setter\ Method\ for\ setting\ Withdrawal\ Amount\n(Amount\ to\ draw\ out\ from\ Bank\ Account)
+comment7.params=WithdrawalAmount\ DateofWithdrawal\ PIN_Number
+comment7.target=void\ Withdraw(int,\ java.lang.String,\ int)
+comment7.text=\ Method\ to\ withdraw\ money\ from\ your\ bank\ account\ under\ the\ condition\ that\ \n\ your\ PIN\ Number\ is\ correct\ and\ you\ have\ enougn\ balance\ amount\ to\ withdraw\nand\ also\ to\ calculate\ Balance\ Amount\ after\ Withdrawal
+comment8.params=
+comment8.target=void\ display()
+comment8.text=Displays\ all\ the\ info\ of\ the\ client\ which\ includes\ Date\ of\ withdrawal,\ Withdrawal\ Amount,\ Final\ Current\ Balance
+numComments=9

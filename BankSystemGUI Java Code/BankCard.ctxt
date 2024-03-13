@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=BankCard
+comment0.text=\ Creating\ a\ class\ named\ Bankcard\ which\ resembles\ a\ real\ life\ bank\ account\ card\ \nwhich\ contains\ all\ the\ information\ about\ the\ client\ and\ the\ transaction\ performed.
+comment1.params=BankAccount\ IssuerBank\ BalanceAmount\ CardID
+comment1.target=BankCard(java.lang.String,\ java.lang.String,\ int,\ int)
+comment2.params=
+comment2.target=java.lang.String\ getClientName()
+comment2.text=Using\ Getter\ Method
+comment3.params=
+comment3.target=java.lang.String\ getIssuerBank()
+comment4.params=
+comment4.target=int\ getCardID()
+comment5.params=
+comment5.target=java.lang.String\ getBankAccount()
+comment6.params=
+comment6.target=int\ getBalanceAmount()
+comment7.params=ClientName
+comment7.target=void\ setClientName(java.lang.String)
+comment7.text=Using\ Setter\ Method
+comment8.params=BalanceAmount
+comment8.target=void\ setBalanceAmount(int)
+comment9.params=
+comment9.target=void\ display()
+numComments=10
